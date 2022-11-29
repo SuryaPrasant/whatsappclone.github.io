@@ -1,0 +1,118 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+#container1 {
+    width: 408px;
+}
+#head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 59px; */
+    background-color:#f0f2f5;
+    padding: 10px 16px;
+    /* padding-top: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 10px; */
+}
+.dp img {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 40px;
+    cursor: pointer;
+}
+#menu {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 16px;
+    cursor: pointer;
+}
+#menu span {
+    display: flex;
+    background-color: #494949;
+    border-radius: 50%;
+    height: 4px;
+    width: 4px;
+    margin: 1px;
+}
+#search {
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    height: 49px;
+    border-bottom: 1px solid #d1d7db;
+}
+#search input {
+    padding-left: 60px;
+    /* padding-right: 32px; */
+    height: 35px;
+    width: 240px;
+    border: 0px;
+    border-radius: 10px;
+    background: #f0f2f5;
+}
+#search img {
+    height: 25px;
+    margin: 0px 10px;
+}
+.contacts {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d1d7db;
+    height: 72px;
+}
+.contacts:hover {
+    background-color:#f0f2f5;
+    cursor: pointer;
+}
+.contacts .dp {
+    padding: 0 16px;
+}
+.contact_info {
+    display: flex;
+    flex-direction: column;
+    width: 325px;
+    height: 40px;
+}
+p.contact_name {
+    margin: 0;
+    height: 21px;
+    font-weight: bold;
+    color: #494949;
+} 
+p.chat_preview {
+    margin: 0;
+    height: 21px;
+    font-weight: lighter;
+    color: #494949;
+}
+#container2 {
+    width: 954px;
+    border-left: 1px solid #d1d7db;
+}
+#contact_info {
+    display: flex;
+    align-items: center;
+}
+#msg {
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    height: 60px;
+    background: #f0f2f5;
+}
+#msg input {
+    padding-left: 65px;
+    padding-right: 32px;
+    height: 35px;
+    width: 760px;
+    border: 0px;
+    border-radius: 10px;
+}
+#chat {
+    height: 501px;
+}
